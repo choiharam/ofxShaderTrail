@@ -8,7 +8,8 @@ Introduction
 
 The example shows a white circle moving around the screen with the trail effect applied.
 
-By default, the mix-ratio between the current and the previous frames is set to `0.044`. But it can be changed by calling `.setAmount(float)`.
+By default, the mix-ratio between the current and the previous frames is set to `0.044`.
+It can be changed by calling `.setAmount(float)`. The range is from 0.0 to 1.0.
 
 Licence
 -------

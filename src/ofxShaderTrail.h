@@ -7,7 +7,7 @@ class ofxShaderTrail {
 
 
 //--------------------------------------------------------------
-    void setup(float w, float h, float amount){
+    void setup(float w, float h, float amount=0.044){
         width = w;
         height = h;
         this->amount = amount;
